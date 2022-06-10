@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "autoname": "Q:#",
+ "creation": "2022-06-09 12:16:25.217193",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "question_text",
+  "choice_1",
+  "choice_2",
+  "choice_3",
+  "correct_answer"
+ ],
+ "fields": [
+  {
+   "fieldname": "question_text",
+   "fieldtype": "Data",
+   "label": "Question text"
+  },
+  {
+   "fieldname": "choice_1",
+   "fieldtype": "Data",
+   "label": "Choice 1"
+  },
+  {
+   "fieldname": "choice_2",
+   "fieldtype": "Data",
+   "label": "Choice 2"
+  },
+  {
+   "fieldname": "choice_3",
+   "fieldtype": "Data",
+   "label": "Choice 3"
+  },
+  {
+   "fieldname": "correct_answer",
+   "fieldtype": "Data",
+   "label": "Correct Answer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-09 12:18:33.721953",
+ "modified_by": "Administrator",
+ "module": "New App 1",
+ "name": "Exam Questions",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

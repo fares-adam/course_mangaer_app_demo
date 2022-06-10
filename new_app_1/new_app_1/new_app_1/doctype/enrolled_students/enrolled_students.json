@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "autoname": "field:first_name",
+ "creation": "2022-06-05 07:43:16.501460",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "student",
+  "email",
+  "dob",
+  "level"
+ ],
+ "fields": [
+  {
+   "fetch_from": "student.first_name",
+   "fetch_if_empty": 1,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Data",
+   "label": "Dob"
+  },
+  {
+   "fetch_from": "student.level",
+   "fieldname": "level",
+   "fieldtype": "Data",
+   "label": "Level"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Full Name",
+   "options": "Student"
+  },
+  {
+   "fetch_from": "student.email",
+   "fetch_if_empty": 1,
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-09 18:12:27.024537",
+ "modified_by": "Administrator",
+ "module": "New App 1",
+ "name": "enrolled students",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
